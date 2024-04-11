@@ -35,3 +35,38 @@ color:red;
 .black{
     color: black;
 }
+
+.immagine1 {
+	display: block; 
+}
+
+.immagine2 {
+	display: none;
+}
+
+.cambioimmagine {
+	
+}
+
+.cambioimmagine:hover .immagine1 {
+	display: none;   
+}
+
+.cambioimmagine:hover .immagine2 {
+	display: block;   
+}
+footer{
+    display: flex;
+    background-color: gray;
+    color: white;
+    width: 2000px;
+}
+div.flex{
+    display: flex;
+}
+div footer{
+    justify-content: space-between;    
+}
+.destra{
+    
+}
