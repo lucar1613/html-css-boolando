@@ -11,15 +11,21 @@ header{
     align-items: center;
     background-color:orangered;
     text-align: left;
-    background-image: url(boolean-logo.png);
+    background-image: url(file:///C:/Users/Antonio/Desktop/esercizi/boolando/html-css-boolando/boolando-images/img/boolean-logo.png);
+    background-repeat:no-repeat;
+    background-position-x: center;
     padding:10px;
+    width: 2000px;
+    height: 120px;
 }
 .href{
     color: white;
+    padding: 20px;
 }
 
 .prima{
     display: flex;
+    padding: 50px;
 }
 
 main{
