@@ -1,55 +1,49 @@
 *{
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     padding: 0;
 }
 body{
-    background-color: white;
+    font-family: sans-serif;
 }
+
 header{
+background-color: orangered;
+color: white;
+
+}
+main{
+padding: 3.5rem;
+}
+div.main-logo >img{
+height: 50px;
+}
+footer{
+background-color:gray;
+color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex{
     display: flex;
     align-items: center;
-    background-color:orangered;
-    text-align: left;
-    background-image: url(file:///C:/Users/Antonio/Desktop/esercizi/boolando/html-css-boolando/boolando-images/img/boolean-logo.png);
-    background-repeat:no-repeat;
-    background-position-x: center;
-    padding:10px;
-    width: 2000px;
-    height: 120px;
 }
-.href{
-    color: white;
-    padding: 20px;
+ul{
+    list-style-type: none;
 }
-
-.prima{
+header nav{
+    padding: 0.8rem 0;
+}
+header nav li{
+    margin-right: 1rem;
+}
+.flex-between{
     display: flex;
-    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
 }
-
-main{
-    display: block;
-}
-div.column-small{
-    width: 30%;
-}
-div.column{
-    padding: 2rem;
-}
-.flex-centered{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding:20px;
-}
-.p1{
-color:red;
-}
-.black{
-    color: black;
-}
-
 .immagine1 {
 	display: block; 
 }
@@ -69,19 +63,21 @@ color:red;
 .cambioimmagine:hover .immagine2 {
 	display: block;   
 }
-footer{
+.flex-centered{
     display: flex;
-    background-color: gray;
-    color: white;
-    width: 2000px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-div.flex{
-    display: flex;
+div.column-small{
+    width: 30%;
 }
-div footer{
-    justify-content: space-between;    
+div.column{
+    padding: 2rem;
 }
-.destra{
-width: 20px;
-height: 20px;
+.p1{
+    color:red;
+    }
+.black{
+        color: black;
 }
+    
